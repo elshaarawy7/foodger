@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:hungey/core/constant/app_color.dart';
 import 'package:hungey/core/constant/app_images.dart';
 import 'package:hungey/feat/auth/presentation/pages/login_page.dart';
-import 'package:hungey/feat/home/home_page.dart';
+import 'package:hungey/feat/home/presentation/pages/home_page.dart';
 
 
 class SplashPageBody extends StatefulWidget {

@@ -6,9 +6,9 @@ import 'package:hungey/core/constant/app_color.dart';
 import 'package:hungey/core/constant/app_images.dart';
 import 'package:hungey/core/helper/validators.dart';
 import 'package:hungey/feat/auth/presentation/widgets/custem_textfromfiled.dart';
-import 'package:hungey/feat/home/home_page.dart';
 import 'package:hungey/feat/shared/custem_batton.dart';
 import 'package:hungey/feat/shared/custem_text.dart';
+import 'package:hungey/rote.dart';
 
 class RegisterPageBody extends StatefulWidget {
   const RegisterPageBody({super.key});
@@ -131,7 +131,7 @@ class _RegisterPageBodyState extends State<RegisterPageBody> {
                       text: "Register",
                       onTap: () {
                         if (formKey.currentState!.validate()) {
-                          context.go(HomePage.homeRoute);
+                          context.go(Root.rootRoute);
                         }
                       },
                     ),

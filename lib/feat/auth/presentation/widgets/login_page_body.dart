@@ -7,9 +7,10 @@ import 'package:hungey/core/constant/app_images.dart';
 import 'package:hungey/core/helper/validators.dart';
 import 'package:hungey/feat/auth/presentation/pages/regester_papge.dart';
 import 'package:hungey/feat/auth/presentation/widgets/custem_textfromfiled.dart';
-import 'package:hungey/feat/home/home_page.dart';
+import 'package:hungey/feat/home/presentation/pages/home_page.dart';
 import 'package:hungey/feat/shared/custem_batton.dart';
 import 'package:hungey/feat/shared/custem_text.dart';
+import 'package:hungey/rote.dart';
 
 class LoginPageBody extends StatefulWidget {
   const LoginPageBody({super.key});
@@ -99,7 +100,7 @@ class _LoginPageBodyState extends State<LoginPageBody> {
                           text: "Login",
                           onTap: () {
                             if (formKey.currentState!.validate()) {
-                              context.push(HomePage.homeRoute);
+                              context.push(Root.rootRoute);
                             }
                           },
                         ),
